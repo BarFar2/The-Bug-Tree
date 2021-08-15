@@ -426,4 +426,5 @@ addLayer("i", {
     type: "normal",
     exponent: 1 / 2 ** 1024,
     effectDescription: IEW,
+    layerShown(){return player.sb.points.gte(new Decimal('e500')) || player.i.points.gte(1)},
 })
