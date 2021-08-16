@@ -154,7 +154,7 @@ var displayThings = [
 
 // 确定游戏何时结束
 function isEndgame() {
-	return player.points.gte(new Decimal("f10"))
+	return player.points.gte(new Decimal("eeeeeeeee0"))
 }
 
 // 每秒计算点数！
